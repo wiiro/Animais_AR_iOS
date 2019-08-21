@@ -1,0 +1,328 @@
+fileFormatVersion: 2
+guid: c9a78e3f2541c364abf96c6e9c03cdb4
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Boto
+    100004: BotoRig_rig
+    100006: DEF-back_fin_B_001_Bk_L
+    100008: DEF-back_fin_B_001_Bk_L_end
+    100010: DEF-back_fin_B_001_Bk_R
+    100012: DEF-back_fin_B_001_Bk_R_end
+    100014: DEF-back_fin_B_Bk_L
+    100016: DEF-back_fin_B_Bk_R
+    100018: DEF-eye_L
+    100020: DEF-eye_L_end
+    100022: DEF-eye_R
+    100024: DEF-eye_R_end
+    100026: DEF-jaw
+    100028: DEF-jaw_001
+    100030: DEF-jaw_001_end
+    100032: DEF-shoulder_L
+    100034: DEF-shoulder_L_end
+    100036: DEF-shoulder_R
+    100038: DEF-shoulder_R_end
+    100040: DEF-side_fin_L
+    100042: DEF-side_fin_L_001
+    100044: DEF-side_fin_L_001_end
+    100046: DEF-side_fin_R
+    100048: DEF-side_fin_R_001
+    100050: DEF-side_fin_R_001_end
+    100052: DEF-spine
+    100054: DEF-spine_001
+    100056: DEF-spine_002
+    100058: DEF-spine_003
+    100060: DEF-spine_004
+    100062: DEF-spine_005
+    100064: DEF-spine_006
+    100066: DEF-spine_007
+    100068: DEF-spine_007_end
+    100070: DEF-spine_008
+    100072: DEF-top_fin
+    100074: DEF-top_fin_001
+    100076: DEF-top_fin_001_end
+    100078: head
+    100080: MCH-pivot
+    100082: MCH-ROT-head
+    100084: MCH-ROT-neck
+    100086: MCH-ROT-tail
+    100088: MCH-spine_003
+    100090: MCH-spine_004
+    100092: MCH-spine_005
+    100094: MCH-spine_008
+    100096: neck
+    100098: ORG-eye_L
+    100100: ORG-eye_R
+    100102: ORG-jaw_master
+    100104: ORG-shoulder_L
+    100106: ORG-shoulder_R
+    100108: ORG-spine
+    100110: ORG-spine_004
+    100112: ORG-spine_005
+    100114: ORG-spine_007
+    100116: root
+    100118: spine
+    100120: spine_001
+    100122: spine_002
+    100124: torso
+    100126: tweak_spine
+    100128: tweak_spine_003
+    100130: tweak_spine_004
+    100132: tweak_spine_005
+    400000: //RootNode
+    400002: Boto
+    400004: BotoRig_rig
+    400006: DEF-back_fin_B_001_Bk_L
+    400008: DEF-back_fin_B_001_Bk_L_end
+    400010: DEF-back_fin_B_001_Bk_R
+    400012: DEF-back_fin_B_001_Bk_R_end
+    400014: DEF-back_fin_B_Bk_L
+    400016: DEF-back_fin_B_Bk_R
+    400018: DEF-eye_L
+    400020: DEF-eye_L_end
+    400022: DEF-eye_R
+    400024: DEF-eye_R_end
+    400026: DEF-jaw
+    400028: DEF-jaw_001
+    400030: DEF-jaw_001_end
+    400032: DEF-shoulder_L
+    400034: DEF-shoulder_L_end
+    400036: DEF-shoulder_R
+    400038: DEF-shoulder_R_end
+    400040: DEF-side_fin_L
+    400042: DEF-side_fin_L_001
+    400044: DEF-side_fin_L_001_end
+    400046: DEF-side_fin_R
+    400048: DEF-side_fin_R_001
+    400050: DEF-side_fin_R_001_end
+    400052: DEF-spine
+    400054: DEF-spine_001
+    400056: DEF-spine_002
+    400058: DEF-spine_003
+    400060: DEF-spine_004
+    400062: DEF-spine_005
+    400064: DEF-spine_006
+    400066: DEF-spine_007
+    400068: DEF-spine_007_end
+    400070: DEF-spine_008
+    400072: DEF-top_fin
+    400074: DEF-top_fin_001
+    400076: DEF-top_fin_001_end
+    400078: head
+    400080: MCH-pivot
+    400082: MCH-ROT-head
+    400084: MCH-ROT-neck
+    400086: MCH-ROT-tail
+    400088: MCH-spine_003
+    400090: MCH-spine_004
+    400092: MCH-spine_005
+    400094: MCH-spine_008
+    400096: neck
+    400098: ORG-eye_L
+    400100: ORG-eye_R
+    400102: ORG-jaw_master
+    400104: ORG-shoulder_L
+    400106: ORG-shoulder_R
+    400108: ORG-spine
+    400110: ORG-spine_004
+    400112: ORG-spine_005
+    400114: ORG-spine_007
+    400116: root
+    400118: spine
+    400120: spine_001
+    400122: spine_002
+    400124: torso
+    400126: tweak_spine
+    400128: tweak_spine_003
+    400130: tweak_spine_004
+    400132: tweak_spine_005
+    2100000: BotoCorpo
+    2100002: BotoOlhos
+    4300000: Boto
+    7400000: Default Take
+    7400002: Boto_Idle
+    7400004: Boto_Interacao
+    9500000: //RootNode
+    13700000: Boto
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BotoCorpo
+    second: {fileID: 2100000, guid: 2d72c91bd9573b84ebb54dee825a48c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BotoOlhos
+    second: {fileID: 2100000, guid: 88acb70bf164f4e48832a3a36e2e7212, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Boto_Idle
+      takeName: Boto_Idle
+      firstFrame: 1
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Boto_Interacao
+      takeName: Boto_Interacao
+      firstFrame: 0
+      lastFrame: 151
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

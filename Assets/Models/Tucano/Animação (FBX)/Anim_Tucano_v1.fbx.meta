@@ -1,0 +1,270 @@
+fileFormatVersion: 2
+guid: 5b78c25cfa6a2e843b8371778f964651
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bico_bottom
+    100004: bico_top
+    100006: bone
+    100008: bone20
+    100010: bone21
+    100012: bone22
+    100014: bone23
+    100016: bone24
+    100018: bone25
+    100020: bone28
+    100022: bone29
+    100024: bone30
+    100026: bone31
+    100028: bone34
+    100030: bone35
+    100032: bone36
+    100034: bone37
+    100036: bone40
+    100038: bone41
+    100040: bone47
+    100042: cylinder
+    100044: Eye_L
+    100046: Eye_R
+    100048: Head
+    100050: Joint
+    100052: Leg_IK_L
+    100054: Leg_IK_pole_L
+    100056: Leg_IK_pole_R
+    100058: Leg_IK_R
+    100060: Leg_L
+    100062: Leg_L_Ankle
+    100064: Leg_L_Lower
+    100066: Leg_R
+    100068: Leg_R_Ankle
+    100070: Leg_R_Lower
+    100072: Neck
+    100074: Palpebra_Bottom_L
+    100076: Palpebra_Bottom_R
+    100078: Palpebra_Top_L
+    100080: Palpebra_Top_R
+    100082: Tail
+    100084: TailRotate
+    100086: Torso
+    100088: Toucan_A_WFolded
+    100090: Toucan_A_WFolded_
+    400000: //RootNode
+    400002: bico_bottom
+    400004: bico_top
+    400006: bone
+    400008: bone20
+    400010: bone21
+    400012: bone22
+    400014: bone23
+    400016: bone24
+    400018: bone25
+    400020: bone28
+    400022: bone29
+    400024: bone30
+    400026: bone31
+    400028: bone34
+    400030: bone35
+    400032: bone36
+    400034: bone37
+    400036: bone40
+    400038: bone41
+    400040: bone47
+    400042: cylinder
+    400044: Eye_L
+    400046: Eye_R
+    400048: Head
+    400050: Joint
+    400052: Leg_IK_L
+    400054: Leg_IK_pole_L
+    400056: Leg_IK_pole_R
+    400058: Leg_IK_R
+    400060: Leg_L
+    400062: Leg_L_Ankle
+    400064: Leg_L_Lower
+    400066: Leg_R
+    400068: Leg_R_Ankle
+    400070: Leg_R_Lower
+    400072: Neck
+    400074: Palpebra_Bottom_L
+    400076: Palpebra_Bottom_R
+    400078: Palpebra_Top_L
+    400080: Palpebra_Top_R
+    400082: Tail
+    400084: TailRotate
+    400086: Torso
+    400088: Toucan_A_WFolded
+    400090: Toucan_A_WFolded_
+    2100000: M_Eye_Tucano
+    2100002: M_Tucano
+    2100004: Material
+    2300000: cylinder
+    3300000: cylinder
+    4300000: Eye_R
+    4300002: Toucan_A_WFolded
+    4300004: Eye_L
+    4300006: cylinder
+    7400000: Default Take
+    7400002: Toucan_Idle
+    7400004: Toucan_Touch
+    9500000: //RootNode
+    13700000: Eye_L
+    13700002: Eye_R
+    13700004: Toucan_A_WFolded
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Eye_Tucano
+    second: {fileID: 2100000, guid: 62e9b755cacf5c24bb28ecc60f4ab5c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Tucano
+    second: {fileID: 2100000, guid: f2865aaaf7c280d4ebff1301ed57201e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 3ec090bd9d3eb184f9a123fbd5e06cc8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Toucan_Idle
+      takeName: Toucan_Idle
+      firstFrame: 0
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Toucan_Touch
+      takeName: Toucan_Touch
+      firstFrame: 0
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: b9684f56f7680474881c452e583f463c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Anal02
+    100002: Anal03
+    100004: Anal04
+    100006: Anal05
+    100008: //RootNode
+    100010: barbatana01_L
+    100012: barbatana01_R
+    100014: Barbatana02_L
+    100016: Barbatana02_R
+    100018: Barbatana03_L
+    100020: Barbatana03_R
+    100022: Barbatana04_L
+    100024: Barbatana04_R
+    100026: Barbatana05_L
+    100028: Barbatana05_R
+    100030: Barbatana06_L
+    100032: Barbatana06_R
+    100034: BocaInferior
+    100036: BocaSuperior
+    100038: Cabeca
+    100040: Dorsal02
+    100042: Dorsal03
+    100044: Dorsal04
+    100046: Dorsal05
+    100048: Dorsal06
+    100050: espinha01
+    100052: espinha02
+    100054: espinha03
+    100056: espinha04
+    100058: espinha05
+    100060: espinha06
+    100062: PeixeDonzela_001
+    100064: PeixeDonzela_Eyes
+    100066: PeixeDonzela_RIG
+    100068: Pelvica01_L
+    100070: Pelvica01_R
+    100072: Pelvica02_L
+    100074: Pelvica02_R
+    100076: Pelvica03_L
+    100078: Pelvica03_R
+    100080: Pelvica04_L
+    100082: Pelvica04_R
+    100084: RaboInferior01
+    100086: RaboInferior02
+    100088: RaboInferior03
+    100090: RaboSuperior01
+    100092: RaboSuperior02
+    100094: RaboSuperior03
+    100096: Root
+    400000: Anal02
+    400002: Anal03
+    400004: Anal04
+    400006: Anal05
+    400008: //RootNode
+    400010: barbatana01_L
+    400012: barbatana01_R
+    400014: Barbatana02_L
+    400016: Barbatana02_R
+    400018: Barbatana03_L
+    400020: Barbatana03_R
+    400022: Barbatana04_L
+    400024: Barbatana04_R
+    400026: Barbatana05_L
+    400028: Barbatana05_R
+    400030: Barbatana06_L
+    400032: Barbatana06_R
+    400034: BocaInferior
+    400036: BocaSuperior
+    400038: Cabeca
+    400040: Dorsal02
+    400042: Dorsal03
+    400044: Dorsal04
+    400046: Dorsal05
+    400048: Dorsal06
+    400050: espinha01
+    400052: espinha02
+    400054: espinha03
+    400056: espinha04
+    400058: espinha05
+    400060: espinha06
+    400062: PeixeDonzela_001
+    400064: PeixeDonzela_Eyes
+    400066: PeixeDonzela_RIG
+    400068: Pelvica01_L
+    400070: Pelvica01_R
+    400072: Pelvica02_L
+    400074: Pelvica02_R
+    400076: Pelvica03_L
+    400078: Pelvica03_R
+    400080: Pelvica04_L
+    400082: Pelvica04_R
+    400084: RaboInferior01
+    400086: RaboInferior02
+    400088: RaboInferior03
+    400090: RaboSuperior01
+    400092: RaboSuperior02
+    400094: RaboSuperior03
+    400096: Root
+    2100000: M_PeixeDonzela
+    2100002: M_PeixeDonzela_eyes
+    4300000: PeixeDonzela_001
+    4300002: PeixeDonzela_Eyes
+    7400000: Default Take
+    7400002: PeixeDonzela_TouchBake
+    7400004: PeixeDozela_IdleBake
+    9500000: //RootNode
+    13700000: PeixeDonzela_001
+    13700002: PeixeDonzela_Eyes
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_PeixeDonzela
+    second: {fileID: 2100000, guid: 650d081933a19a04b905a51742109f9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_PeixeDonzela_eyes
+    second: {fileID: 2100000, guid: 06e3617f0c9ff98478dc7488627dd67b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PeixeDonzela_TouchBake
+      takeName: PeixeDonzela_TouchBake
+      firstFrame: 0
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PeixeDozela_IdleBake
+      takeName: PeixeDozela_IdleBake
+      firstFrame: 0
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

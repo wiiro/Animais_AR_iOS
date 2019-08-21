@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: 7edb85d352e01194282676f0f380eb22
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: antebraco_IK_L
+    100004: antebraco_IK_R
+    100006: antebraco_L
+    100008: antebraco_R
+    100010: braco_L
+    100012: braco_R
+    100014: cabeca01
+    100016: cabeca02
+    100018: cabeca03
+    100020: cabeca04
+    100022: cabeca05
+    100024: cabeca06
+    100026: cabeca07
+    100028: coluna01
+    100030: coluna02
+    100032: coluna03
+    100034: coxa_L
+    100036: coxa_R
+    100038: orelha_L
+    100040: orelha_R
+    100042: pataDianteira_L
+    100044: pataDianteira_R
+    100046: pataTraseira_L
+    100048: pataTraseira_R
+    100050: perna_IK_L
+    100052: perna_IK_R
+    100054: perna_L
+    100056: perna_R
+    100058: pescoco01
+    100060: pescoco02
+    100062: Principal
+    100064: rabo01
+    100066: rabo02
+    100068: rabo03
+    100070: rabo04
+    100072: rabo05
+    100074: tamandua
+    100076: tamandua_garras
+    100078: Tamandua_Olhos
+    100080: tamandua_rig
+    400000: //RootNode
+    400002: antebraco_IK_L
+    400004: antebraco_IK_R
+    400006: antebraco_L
+    400008: antebraco_R
+    400010: braco_L
+    400012: braco_R
+    400014: cabeca01
+    400016: cabeca02
+    400018: cabeca03
+    400020: cabeca04
+    400022: cabeca05
+    400024: cabeca06
+    400026: cabeca07
+    400028: coluna01
+    400030: coluna02
+    400032: coluna03
+    400034: coxa_L
+    400036: coxa_R
+    400038: orelha_L
+    400040: orelha_R
+    400042: pataDianteira_L
+    400044: pataDianteira_R
+    400046: pataTraseira_L
+    400048: pataTraseira_R
+    400050: perna_IK_L
+    400052: perna_IK_R
+    400054: perna_L
+    400056: perna_R
+    400058: pescoco01
+    400060: pescoco02
+    400062: Principal
+    400064: rabo01
+    400066: rabo02
+    400068: rabo03
+    400070: rabo04
+    400072: rabo05
+    400074: tamandua
+    400076: tamandua_garras
+    400078: Tamandua_Olhos
+    400080: tamandua_rig
+    2100000: M_Tamandua_garras__tamandua_COLOR_2048_jpg
+    2100002: M_Tamandua_Eyes__tamandua_COLOR_2048_jpg
+    2100004: M_Tamandua__tamandua_COLOR_2048_jpg
+    4300000: tamandua_garras
+    4300002: Tamandua_Olhos
+    4300004: tamandua
+    7400000: Default Take
+    7400002: Tamandua_IdleBake
+    7400004: Tamandua_TouchBake
+    9500000: //RootNode
+    13700000: tamandua
+    13700002: tamandua_garras
+    13700004: Tamandua_Olhos
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Tamandua_Eyes__tamandua_COLOR_2048_jpg
+    second: {fileID: 2100000, guid: 63358ab06b0ad6d4bb5abe5b49fc4650, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Tamandua__tamandua_COLOR_2048_jpg
+    second: {fileID: 2100000, guid: 768ac1c68281f2041a497cb57a4de683, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Tamandua_garras__tamandua_COLOR_2048_jpg
+    second: {fileID: 2100000, guid: d9036c169eb128846bf91d525d2c4d31, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tamandua_IdleBake
+      takeName: Tamandua_IdleBake
+      firstFrame: 0
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tamandua_TouchBake
+      takeName: Tamandua_TouchBake
+      firstFrame: 0
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
