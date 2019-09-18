@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class ButtonManager : MonoBehaviour
 {
     public SceneLoader sceneLoader;
+    public bool reset;
   
     #region Main Menu Buttons
     public void Play()
@@ -73,4 +74,35 @@ public class ButtonManager : MonoBehaviour
         Application.OpenURL("http://www.affagio.com.br");
     }
     #endregion
+
+    #region AR Reset Buttons
+    public void ResetCloseScreen()
+    {
+        StaticVariables.resetAR = true;
+        SceneManager.LoadScene(1, LoadSceneMode.Additive);
+        SceneManager.UnloadSceneAsync(2);
+        SceneManager.SetActiveScene(SceneManager.GetSceneByBuildIndex(1));
+        StaticVariables.currentScene = 1;
+
+    }
+
+    public void ResetOpenScreen()
+    {
+        if(StaticVariables.resetAR == true && !SceneManager.GetSceneByBuildIndex(2).isLoaded && SceneManager.GetSceneByBuildIndex(1).isLoaded)
+        {
+            StaticVariables.resetAR = false;
+            SceneManager.LoadScene(2, LoadSceneMode.Additive);
+            SceneManager.UnloadSceneAsync(1);
+            SceneManager.SetActiveScene(SceneManager.GetSceneByBuildIndex(2));
+            StaticVariables.currentScene = 2;
+        }
+    }
+
+    #endregion
+
+    public void Update()
+    {
+        reset = StaticVariables.resetAR;
+        ResetOpenScreen();
+    }
 }

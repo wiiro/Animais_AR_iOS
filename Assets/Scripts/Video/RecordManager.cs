@@ -31,16 +31,16 @@ namespace Recorder
         {
             
             recorder.StopRecording();
+            //filePath = recorder.FilePath;
             StartCoroutine(DelaySaveVideo());
-            filePath = recorder.FilePath;
             
         }
         private IEnumerator DelaySaveVideo()
         {
             yield return new WaitForSeconds(1);
             recorder.SaveVideoToGallery();
-            System.DateTime now = System.DateTime.Now;
-            fileName = "Video_" + now.Year + "_" + now.Month + "_" + now.Day + "_" + now.Hour + "_" + now.Minute + "_" + now.Second + ".mp4";
+            //System.DateTime now = System.DateTime.Now;
+            //fileName = "Video_" + now.Year + "_" + now.Month + "_" + now.Day + "_" + now.Hour + "_" + now.Minute + "_" + now.Second + ".mp4";
 
         }
     }
