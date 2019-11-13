@@ -110,7 +110,7 @@ public class ScreenShotShare : MonoBehaviour
  {
  isProcessing = true;
  string screenShotPath = Application.persistentDataPath + "/" + ScreenshotName;
- Application.CaptureScreenshot(ScreenshotName);
+ ScreenCapture.CaptureScreenshot(ScreenshotName);
  yield return new WaitForSeconds(1f);
  CallSocialShareAdvanced(ShareMessage, subject, url, screenShotPath);
 
